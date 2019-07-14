@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="aa" class="java.util.Date"/>
+    <bean id = "student" class="com.ma.Student">
+        <property name="name" value="xiaoma"/>
+        <property name="age" value="12"/>
+    </bean>
+</beans>
